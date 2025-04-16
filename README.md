@@ -21,3 +21,21 @@ cd ComfyUI-Kimi-VL
 pip install -r requirements.txt
 ```
 
+
+## Model
+
+🤗 For general multimodal perception and understanding, OCR, long video and long document, video perception, and agent uses, we recommend `Kimi-VL-A3B-Instruct` for efficient inference; for advanced text and multimodal reasoning (e.g. math), please consider using `Kimi-VL-A3B-Thinking`.
+
+<div align="center">
+
+| **Model** | **#Total Params** | **#Activated Params** | **Context Length** | **Download Link** |
+| :------------: | :------------: | :------------: | :------------: | :------------: |
+| Kimi-VL-A3B-Instruct | 16B | 3B | 128K   | [🤗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct)   |
+| Kimi-VL-A3B-Thinking  | 16B | 3B |  128K   | [🤗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking)   |
+
+</div>
+
+> [!Note]
+> Recommended parameter settings:
+> - For **Thinking models**, it is recommended to use `Temperature = 0.6`. 
+> - For **Instruct models**, it is recommended to use `Temperature = 0.2`. 
