@@ -1,1 +1,7 @@
-
+torch
+torchvision
+transformers>=4.45.0
+pillow
+tiktoken
+accelerate
+blobfile
