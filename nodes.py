@@ -128,7 +128,6 @@ class SaveText:
         }
 
     RETURN_TYPES = ("STRING",)
-    RETURN_NAMES = ("saved_response",)
     FUNCTION = "output"
     CATEGORY = "Kimi-VL"
 
