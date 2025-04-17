@@ -4,7 +4,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoProcessor
 
 
-class LoadImage:
+class LoadKimiVLImage:
 
     @classmethod
     def INPUT_TYPES(s):
@@ -113,7 +113,7 @@ class KimiVL:
         return (response,)
 
 
-class SaveText:
+class SaveKimiVLText:
 
     @classmethod
     def INPUT_TYPES(s):
