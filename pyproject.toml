@@ -1,0 +1,15 @@
+[project]
+name = "kimi-vl"
+description = "ComfyUI nodes for Kimi-VL model."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch", "torchvision", "transformers>=4.45.0", "pillow", "tiktoken", "accelerate", "blobfile"]
+
+[project.urls]
+Repository = "https://github.com/Yuan-ManX/ComfyUI-Kimi-VL"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Kimi-VL"
+Icon = ""
